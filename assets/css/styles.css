@@ -335,6 +335,23 @@ img {
 		transform: translateY(-.25rem);
 	}
 
+	.login .swiper-pagination-bullets {
+		width: initial;
+		left: initial;
+		right: 5rem;
+		bottom: 4rem;
+	}
+
+	.login .swiper-pagination-bullet {
+		background-color: var(--white-color);
+		opacity: .6;
+		transition: opacity .4s;
+	}
+
+	.login .swiper-pagination-bullet-active {
+		opacity: 1;
+	}
+
 
 }
 
